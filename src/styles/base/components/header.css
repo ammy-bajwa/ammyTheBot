@@ -1,0 +1,7 @@
+.header{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4) ),url('/images/bg.jpg');
+    border: 3px solid white;
+     border-radius: 15px;
+     margin-top: 20px;
+     padding: 20px;
+}

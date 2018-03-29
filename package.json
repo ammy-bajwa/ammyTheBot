@@ -9,12 +9,11 @@
     "devServer": "webpack-dev-server",
     "webpack": "webpack",
     "build:prod": "webpack -p --env production",
-    "start": "node server.js",
+    "start": "node server/server.js",
     "heroku-postbuild": "npm run build:prod"
   },
   "dependencies": {
     "apiai": "^4.0.3",
-    "axios": "^0.18.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

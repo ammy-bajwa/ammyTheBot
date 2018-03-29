@@ -1,0 +1,22 @@
+
+@import './base/components/header.css';
+@import './base/components/form.css';
+@import './base/components/inputs.css';
+@import './base/components/operation.css';
+@import './base/components/calculation.css';
+@import './base/components/answer.css';
+
+
+
+
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3) ),url('/images/bg.jpg');
+    color: white;
+    background-size: cover;
+};
+.container-fluid{
+     display: flex;
+     flex-direction: column;
+     margin-top: 20px;
+     padding: 20px;
+ };

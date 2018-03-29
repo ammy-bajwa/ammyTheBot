@@ -2,8 +2,8 @@ const path = require('path');
 const cors = require('cors');
 const express = require('express');
 const app = express();
+const publicPath = path.join(__dirname, '..', 'public');
 const bodyParser = require('body-parser');
-const publicPath = path.join(__dirname);
 const port = process.env.PORT || 3000;
 var apiai = require('apiai');
 
