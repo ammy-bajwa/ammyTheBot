@@ -1,0 +1,30 @@
+body{
+    background-color: #222;
+    color:white;
+}
+.user-bot{
+    border: 2px solid white;
+    margin: 2em;
+    padding: 2em;
+}
+.user{
+
+    width: 50%;
+    
+}
+.bot{
+    border-top: 1px solid white;
+    padding: 1.5em;
+    margin: 1.5em;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+input{
+    height: 3em;
+    margin: .5em;
+    color: black;
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid white;
+    padding: 1em;
+}

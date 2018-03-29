@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Chat Bot</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./styles/style.css" />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+
+</head>
+
+<body>
+    <div class='container-fluid'>
+        <div class="container-fluid header">
+            <h1 class="text-center">This Is A Simple Chat Bot Application</h1>
+        </div>
+        <div class="container-fluid user-bot">
+            <div class="container-fluid user">
+                <input type="text" id="userText" class="input-group-text" placeholder="Enter Something" />
+                <br />
+                <input type="button" id="userSendBtn" onclick="request()" class="btn btn-primary" value="Send" />
+            </div>
+            <div class="container-fluid bot">
+                <div id="botAnswer" class="text-center">Here Will Be The Bot Answer</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
